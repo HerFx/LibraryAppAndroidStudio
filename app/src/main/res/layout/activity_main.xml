@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    >
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Biblioteczka"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/books"
+        android:layout_width="149dp"
+        android:layout_height="wrap_content"
+        android:text="Książki" />
+
+    <Button
+        android:id="@+id/viewAllPeople"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:text="Wszystkie osoby" />
+
+    <Button
+        android:id="@+id/addLoan"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:text="Dodaj wypożyczenie" />
+
+    <Button
+        android:id="@+id/loans"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:text="Wypożyczenia" />
+    <Button
+        android:id="@+id/loansHistory"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:text="Historia Wypożyczenia" />
+
+
+</LinearLayout>

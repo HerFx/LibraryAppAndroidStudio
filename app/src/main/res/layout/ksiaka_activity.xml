@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        >
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Książka"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/bookTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:height="150px"
+            android:hint="Tytuł książki" />
+
+        <EditText
+            android:id="@+id/bookAuthor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:height="150px"
+            android:hint="Autor książki" />
+
+        <EditText
+            android:id="@+id/bookYear"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:height="150px"
+            android:hint="Rok wydania"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/bookDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:height="150px"
+            android:hint="Opis książki" />
+
+        <EditText
+            android:id="@+id/bookPages"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:height="150px"
+            android:hint="Strona internetowa" />
+
+    <EditText
+        android:id="@+id/bookKatalogowa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="150px"
+        android:hint="Pozycja na półce"
+        android:inputType="number"
+        android:minHeight="48dp" />
+
+        <Button
+            android:id="@+id/addBook"
+            android:layout_width="180dp"
+            android:layout_height="61dp"
+            android:text="Dodaj książkę" />
+
+        <Button
+            android:id="@+id/viewAllBooks"
+            android:layout_width="196dp"
+            android:layout_height="wrap_content"
+            android:text="Pokaż wszystkie książki" />
+
+    <Button
+        android:id="@+id/action_back"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_gravity="center"
+android:layout_marginTop="20dp"
+android:padding="10dp"
+android:text="Powrót"
+android:textColor="#FFFFFF"
+android:textSize="18sp"
+android:textStyle="bold" />
+
+
+    </LinearLayout>
